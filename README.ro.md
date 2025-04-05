@@ -1,8 +1,7 @@
-    Prima metoda de "WriterPreferred" am implementat-o cu semafoare, folosind
-implementarea de la laboratorul 5. Folosirea semafoarelor in aceasta
-implementare face ca codul sa para mai complex, mai complicat, dar permit
-extinderea mai usoara a codului la necesitate, in comparatie cu folosirea de
-wait() sau notifyAll().
+    Prima metoda de "WriterPreferred" am implementat-o cu semafoare. 
+Folosirea semafoarelor in aceasta implementare face ca codul sa para mai
+complex, mai complicat, dar permit extinderea mai usoara a codului la
+necesitate, in comparatie cu folosirea de wait() sau notifyAll().
 
     A doua metoda de "WriterPreferred" am implementat-o cu ajutorul blocurilor
 synchronized(), wait(), notify() si notifyAll(). In cazul acestui agoritm se
